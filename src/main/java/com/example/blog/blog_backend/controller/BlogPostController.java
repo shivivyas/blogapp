@@ -1,9 +1,8 @@
-package com.example.blog.blogapp.controller;
+package com.example.blog.blog_backend.controller;
 
-import com.example.blog.blogapp.repository.BlogPostRepository;
-import com.example.blog.blogapp.model.BlogPost;
+import com.example.blog.blog_backend.repository.BlogPostRepository;
+import com.example.blog.blog_backend.model.BlogPost;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

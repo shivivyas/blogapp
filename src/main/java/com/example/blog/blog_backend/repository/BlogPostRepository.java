@@ -1,8 +1,8 @@
-package com.example.blog.blogapp.repository;
+package com.example.blog.blog_backend.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import com.example.blog.blogapp.model.BlogPost; 
+import com.example.blog.blog_backend.model.BlogPost; 
 
 @Repository // Indicates that this is a repository component in the Spring context
 public interface BlogPostRepository extends MongoRepository<BlogPost, String> {
